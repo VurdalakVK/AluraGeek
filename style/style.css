@@ -117,3 +117,121 @@ section .Banner__texto{
     font-weight: 700;
     font-size: 22px;
 }
+
+section .banner__btn{
+    display: flex;
+    margin-left: 50px;
+    width: 129px;
+    height: 51px;
+    background: #2A7AEa;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+section .banner__btn:hover{
+    cursor: pointer;
+    background-color: #64b4ff;
+}
+
+/* Sección Galerías */
+
+section .galerias{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sección Galerías Individuales */
+
+section .galeria__starwars, .galeria__consolas, .galeria__diversos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 1136px;
+    height: 306px;
+}
+
+/* Sección Galería Cabecera */
+
+section .galeria__cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1133px;
+    height: 38px;
+}
+
+section .galeria__cabecera__titulo{
+    color: #464646;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+section .galeria__cabecera__btn{
+    position: relative;
+    right: -39%;
+    background: none;
+    border: none;
+    color: #2A7AEa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Sección Galería Container */
+
+section .galeria__container{
+    display: flex;
+    flex-direction: row;
+    width: 1136px;
+    height: 252px;
+    margin-top: 20px;
+    gap: 16px;
+}
+
+section .galeria__producto{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section .producto__img{
+    width: 176px;
+    height: 174px;
+}
+
+section .producto__info{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+    list-style: none;
+}
+
+section .producto__nombre{
+    color: #464646;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+section .producto__precio{
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+section .producto__link{
+    color: #2A7AEa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+section .producto__link a:link, a:visited{
+    text-decoration: none;
+    color: #2A7AEa;
+}

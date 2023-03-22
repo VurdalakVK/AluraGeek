@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Referencia CSS -->
+    <!-- Referencia CSS -->
 
     <link rel="stylesheet" href="style/style.css">
 
     <title>AluraGeek</title>
 </head>
+
 <body>
 
-<!-- Sección del Header -->
+    <!-- Sección del Header -->
 
-<section class="menu">
-    <header class="menu__header">
-        <img class="menu__logo" src="assets/Logo.png" alt="Logo AluraGeek">
-        <div class="menu__buscar">
-            <input class="menu__buscar__item" type="text" placeholder="¿Que deseas buscar?">
-            <img class="menu__buscar__img" src="assets/buscar.png" alt="">
-        </div>
-        <div class="menu__login">
-            <button class="menu__login__btn">Login</button>
-        </div>
-    </header>
-</section>
+    <section class="menu">
+        <header class="menu__header">
+            <img class="menu__logo" src="assets/Logo.png" alt="Logo AluraGeek">
+            <div class="menu__buscar">
+                <input class="menu__buscar__item" type="text" placeholder="¿Que deseas buscar?">
+                <img class="menu__buscar__img" src="assets/buscar.png" alt="">
+            </div>
+            <div class="menu__login">
+                <button class="menu__login__btn">Login</button>
+            </div>
+        </header>
+    </section>
 
-<!-- Sección Banner -->
+    <!-- Sección Banner -->
 
     <section class="banner">
         <div class="banner__contenido">
@@ -38,193 +40,230 @@
             <p class="Banner__texto">
                 Productos seleccionados con 33% de descuento
             </p>
-            <button class="banner__btn">Consolas</button>
+            <button class="banner__btn">Ver Consolas</button>
         </div>
     </section>
 
-<!-- Sección Galerías -->
+    <!-- Sección Galerías -->
 
     <section class="galerias">
 
-        <!-- Galería Star Wars -->
+        <!-- Sección Galería Star Wars -->
 
         <div class="galeria__starwars">
-            <h1 class="galeria__titulo">Star Wars</h1>
-            <div class="galeria__starwars__producto">
-                <img class="producto__img" src="assets/productos/starwars/item1.png" alt="item">
-                <ul class="starwars__producto1">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
+
+            <!-- Sección Galería Cabecera -->
+
+            <div class="galeria__cabecera">
+                <h1 class="galeria__cabecera__titulo">Star Wars</h1>
+                <button class="galeria__cabecera__btn">Ver todo</button>
+                <img class="galeria__cabecera__img" src="assets/flecha.png" alt="flecha">
             </div>
 
-            <div class="galeria__starwars__producto">
-                <img class="producto__img" src="assets/productos/starwars/item2.png" alt="item">
-                <ul class="starwars__producto2">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+            <!-- Sección Galería Container -->
 
-            <div class="galeria__starwars__producto">
-                <img class="producto__img" src="assets/productos/starwars/item3.png" alt="item">
-                <ul class="starwars__producto3">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+            <div class="galeria__container">
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/starwars/item1.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__starwars__producto">
-                <img class="producto__img" src="assets/productos/starwars/item4.png" alt="item">
-                <ul class="starwars__producto4">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/starwars/item2.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__starwars__producto">
-                <img class="producto__img" src="assets/productos/starwars/item5.png" alt="item">
-                <ul class="starwars__producto5">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/starwars/item3.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__starwars__producto">
-                <img class="producto__img" src="assets/productos/starwars/item6.png" alt="item">
-                <ul class="starwars__producto6">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/starwars/item4.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
+
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/starwars/item5.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
+
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/starwars/item6.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
         <!-- Galería Consolas -->
 
         <div class="galeria__consolas">
-            <h1 class="galeria__titulo">Consolas</h1>
-            <div class="galeria__consolas__producto">
-                <img class="producto__img" src="assets/productos/consolas/item1.png" alt="item">
-                <ul class="consolas__producto1">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
+            
+            <!-- Sección Galería Cabecera -->
+
+            <div class="galeria__cabecera">
+                <h1 class="galeria__cabecera__titulo">Consolas</h1>
+                <button class="galeria__cabecera__btn">Ver todo</button>
+                <img class="galeria__cabecera__img" src="assets/flecha.png" alt="flecha">
             </div>
 
-            <div class="galeria__consolas__producto">
-                <img class="producto__img" src="assets/productos/consolas/item2.png" alt="item">
-                <ul class="consolas__producto2">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+            <!-- Sección Galería Container -->
 
-            <div class="galeria__consolas__producto">
-                <img class="producto__img" src="assets/productos/consolas/item3.png" alt="item">
-                <ul class="consolas__producto3">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+            <div class="galeria__container">
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/consolas/item1.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__consolas__producto">
-                <img class="producto__img" src="assets/productos/consolas/item4.png" alt="item">
-                <ul class="consolas__producto4">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/consolas/item2.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__consolas__producto">
-                <img class="producto__img" src="assets/productos/consolas/item5.png" alt="item">
-                <ul class="consolas__producto5">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/consolas/item3.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__consolas__producto">
-                <img class="producto__img" src="assets/productos/consolas/item6.png" alt="item">
-                <ul class="consolas__producto6">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/consolas/item4.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
+
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/consolas/item5.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
+
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/consolas/item6.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
         <!-- Galería Diversos -->
 
         <div class="galeria__diversos">
-            <h1 class="galeria__titulo">Diversos</h1>
-            <div class="galeria__diversos__producto">
-                <img class="producto__img" src="assets/productos/diversos/item1.png" alt="item">
-                <ul class="diversos__producto1">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
+
+            <!-- Sección Galería Cabecera -->
+
+            <div class="galeria__cabecera">
+                <h1 class="galeria__cabecera__titulo">Diversos</h1>
+                <button class="galeria__cabecera__btn">Ver todo</button>
+                <img class="galeria__cabecera__img" src="assets/flecha.png" alt="flecha">
             </div>
 
-            <div class="galeria__diversos__producto">
-                <img class="producto__img" src="assets/productos/diversos/item2.png" alt="item">
-                <ul class="diversos__producto2">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+            <!-- Sección Galería Container -->
 
-            <div class="galeria__diversos__producto">
-                <img class="producto__img" src="assets/productos/diversos/item3.png" alt="item">
-                <ul class="diversos__producto3">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+            <div class="galeria__container">
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/diversos/item1.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__diversos__producto">
-                <img class="producto__img" src="assets/productos/diversos/item4.png" alt="item">
-                <ul class="diversos__producto4">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/diversos/item2.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__diversos__producto">
-                <img class="producto__img" src="assets/productos/diversos/item5.png" alt="item">
-                <ul class="diversos__producto5">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
-            </div>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/diversos/item3.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
 
-            <div class="galeria__diversos__producto">
-                <img class="producto__img" src="assets/productos/diversos/item6.png" alt="item">
-                <ul class="diversos__producto6">
-                    <li class="producto__nombre">Producto XYZ</li>
-                    <li class="producto__precio">$ 60,00</li>
-                    <li class="producto__link"><a href="#">Ver producto</a></li>
-                </ul>
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/diversos/item4.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
+
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/diversos/item5.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
+
+                <div class="galeria__producto">
+                    <img class="producto__img" src="assets/productos/diversos/item6.png" alt="item">
+                    <ul class="producto__info">
+                        <li class="producto__nombre">Producto XYZ</li>
+                        <li class="producto__precio">$ 60,00</li>
+                        <li class="producto__link"><a href="#">Ver producto</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+
     </section>
 
-<!-- Sección Contacto -->
+    <!-- Sección Contacto -->
 
     <section class="contacto">
         <div class="contacto__logo">
@@ -246,20 +285,22 @@
             <h3 class="contacto__box__titulo">Hable con nosotros</h3>
             <form class="contacto__box__form">
                 <input class="contacto__form__nombre" type="text" name="nombre" placeholder="Nombre" required>
-                <textarea class="contacto__form__mensaje" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje" required cols="30" rows="10"></textarea>
+                <textarea class="contacto__form__mensaje" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"
+                    required cols="30" rows="10"></textarea>
                 <button class="contacto__form__btn" type="submit">Enviar mensaje</button>
             </form>
         </div>
     </section>
 
-<!-- Sección Footer -->
+    <!-- Sección Footer -->
 
-<section class="footer">
-    <div class="footer__info">
-        <p>Desarrollado por Erick Barrea</p>
-        <p>20233</p>
-    </div>
-</section>
+    <section class="footer">
+        <div class="footer__info">
+            <p>Desarrollado por Erick Barrea</p>
+            <p>20233</p>
+        </div>
+    </section>
 
 </body>
+
 </html>
