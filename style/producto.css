@@ -1,8 +1,3 @@
-
-
-
-
-
 body{
     margin: 0;
     padding: 0;
@@ -17,7 +12,6 @@ section .menu{
 section .menu__header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -34,6 +28,7 @@ section .menu__buscar{
 section .menu__buscar__item{
     display: flex;
     flex-direction: row;
+    margin-left: 32px;
     width: 393px;
     height: 38px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -60,104 +55,75 @@ section .menu__buscar__item::placeholder{
     left: 5%;
 }
 
-section .menu__login{
+/* Sección Producto */
+
+section .producto{
     display: flex;
-    width: 182px;
-    height: 51px;
+    flex-direction: row;
 }
 
-section .menu__login__btn{
-    width: 182px;
-    height: 51px;
-    background: none;
-    border-color: #2A7AEa;
-    border-width: 1.5px;
-    color: #2A7AEa;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-section .menu__login__btn:hover{
-    cursor: pointer;
-    background-color: #2a8dea1f;
-}
-
-/* Sección Banner */
-
-section .banner{
+section .producto__container{
     display: flex;
-    flex-direction: column;
-    width: 1440px;
-    height: 352px;
-}
-
-section .banner__contenido{
-    display: flex;
-    flex-direction: column;
-    width: 1440px;
-    height: 352px;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url(../assets/banner-image.png);
-}
-
-section .banner__titulo{
-    display: flex;
-    position: relative;
-    top: 15%;
-    margin-left: 50px;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 52px;
-}
-
-section .Banner__texto{
-    margin-left: 50px;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 22px;
-}
-
-section .banner__btn{
-    display: flex;
-    margin-left: 50px;
-    width: 129px;
-    height: 51px;
-    background: #2A7AEa;
-    border: none;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 16px;
+    flex-direction: row;
     align-items: center;
+    width: 1136px;
+    height: 403px;
+    margin-left: 50px;
+    gap: 16px;
+}
+
+section .producto__container .producto__img{
+    width: 560px;
+    height: 403px;
+}
+
+section .producto__container .producto__info{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 560px;
+    height: 210px;
 }
 
-section .banner__btn:hover{
-    cursor: pointer;
-    background-color: #64b4ff;
+section .producto__info h1{
+    font-weight: 500;
+    font-size: 52px;
+    margin-bottom: 0;
+    color: #464646;
+}
+section .producto__info h3{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #464646;
 }
 
-/* Sección Galerías */
+section ,.producto__info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+}
 
-section .galerias{
+/* Sección Productos Similares */
+
+section .similares{
     display: flex;
     flex-direction: column;
 }
 
-/* Sección Galerías Individuales */
-
-section .galeria__starwars, .galeria__consolas, .galeria__diversos{
+section .similares__container{
     display: flex;
     flex-direction: column;
     margin-left: 50px;
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 1136px;
     height: 306px;
 }
 
-/* Sección Galería Cabecera */
+/* Sección Similares Cabecera */
 
-section .galeria__cabecera{
+section .similares__cabecera{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -166,20 +132,10 @@ section .galeria__cabecera{
     height: 38px;
 }
 
-section .galeria__cabecera__titulo{
+section .similares__cabecera__titulo{
     color: #464646;
     font-weight: 700;
     font-size: 32px;
-}
-
-section .galeria__cabecera__btn{
-    position: relative;
-    right: -39%;
-    background: none;
-    border: none;
-    color: #2A7AEa;
-    font-weight: 700;
-    font-size: 16px;
 }
 
 /* Sección Galería Container */
