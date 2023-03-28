@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <!-- Referencia CSS -->
+
+    <link rel="stylesheet" href="style/agregarproducto.css">
+
+    <title>AluraGeek</title>
+</head>
+
+<body>
+
+    <!-- Sección del Header -->
+
+    <section class="menu">
+        <header class="menu__header">
+            <img class="menu__logo" src="assets/Logo.png" alt="Logo AluraGeek">
+            <div class="menu__buscar">
+                <input class="menu__buscar__item" type="text" placeholder="¿Que deseas buscar?">
+                <img class="menu__buscar__img" src="assets/buscar.png" alt="">
+            </div>
+            <div class="menu__admin">
+                <button class="menu__admin__btn">Menu Administrador</button>
+            </div>
+        </header>
+    </section>
+
+    <!-- Sección Agregar Producto -->
+
+    <section class="agregarproducto">
+        <div class="agregarproducto__container">
+            <div class="agregarproducto__form">
+                <hi class="agregarproducto__titulo">
+                    Agregar nuevo producto
+                </hi>
+                <input class="agregarproducto__img" type="text" placeholder="URL de imagen">
+                <input class="agregarproducto__clase" type="text" placeholder="Categoría">
+                <input class="agregarproducto__nombre" type="text" placeholder="Nombre del producto">
+                <input class="agregarproducto__precio" type="text" placeholder="Precio del producto">
+                <textarea class="agregarproducto__descripcion" name="" id="" cols="30" rows="10" placeholder="Descripción del producto"></textarea>
+                <button class="agregarproducto__btn">Agregar Producto</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+
+    <section class="contacto">
+        <div class="contacto__logo">
+            <img src="assets/Logo.png" alt="">
+        </div>
+
+        <div class="contacto__info">
+            <ul class="contacto__info__list">
+                <li class="contacto__info__item">Quienes somos</li>
+                <li class="contacto__info__item">Política de privacidad</li>
+                <li class="contacto__info__item">Programa de fidelidad</li>
+                <li class="contacto__info__item">Nuestras Tiendas</li>
+                <li class="contacto__info__item">Quiero ser franquiciado</li>
+                <li class="contacto__info__item"> Anuncie aquí</li>
+            </ul>
+        </div>
+
+        <div class="contacto__box">
+            <h3 class="contacto__box__titulo">Hable con nosotros</h3>
+            <form class="contacto__box__form">
+                <input class="contacto__form__nombre" type="text" name="nombre" placeholder="Nombre" required>
+                <textarea class="contacto__form__mensaje" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"
+                    required cols="30" rows="10"></textarea>
+                </form>
+            <button class="contacto__form__btn" type="submit">Enviar mensaje</button>
+        </div>
+    </section>
+
+    <!-- Sección Footer -->
+
+    <section class="footer">
+        <div class="footer__info">
+            <p>Desarrollado por Erick Barrea</p>
+            <p>2023</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
