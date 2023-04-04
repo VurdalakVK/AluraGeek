@@ -1,27 +1,27 @@
-
-
-
-
-
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Sección Header */
 
 section .menu{
     display: flex;
+    justify-content: center;
 }
 
 section .menu__header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    justify-content: center;
+    width: 1440px;
     height: 115px;
+}
+
+section .menu__logo{
+    margin-right: 32px;
 }
 
 section .menu__buscar{
@@ -64,6 +64,7 @@ section .menu__login{
     display: flex;
     width: 182px;
     height: 51px;
+    margin-left: 300px;
 }
 
 section .menu__login__btn{
@@ -105,14 +106,14 @@ section .banner__titulo{
     display: flex;
     position: relative;
     top: 15%;
-    margin-left: 50px;
+    margin-left: 152px;
     color: #ffffff;
     font-weight: 700;
     font-size: 52px;
 }
 
 section .Banner__texto{
-    margin-left: 50px;
+    margin-left: 152px;
     color: #ffffff;
     font-weight: 700;
     font-size: 22px;
@@ -120,7 +121,7 @@ section .Banner__texto{
 
 section .banner__btn{
     display: flex;
-    margin-left: 50px;
+    margin-left: 152px;
     width: 129px;
     height: 51px;
     background: #2A7AEa;
@@ -149,8 +150,9 @@ section .galerias{
 section .galeria__starwars, .galeria__consolas, .galeria__diversos{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 152px;
+    margin-top: 64px;
+    margin-bottom: 64px;
     width: 1136px;
     height: 306px;
 }
@@ -241,9 +243,10 @@ section .producto__link a:link, a:visited{
 section.contacto{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 1440px;
     height: 368px;
-    gap: 112px;
+    gap: 90px;
     background: #EAF2FD;
 }
 
@@ -354,7 +357,9 @@ section .footer{
 section .footer__info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 1440px;
     margin: 32px;
     gap: 8px;
 }

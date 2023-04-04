@@ -13,11 +13,14 @@ section .menu{
 section .menu__header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 1440px;
     height: 115px;
+}
+
+section .menu__logo{
+    margin-right: 32px;
 }
 
 section .menu__buscar{
@@ -59,7 +62,6 @@ section .menu__buscar__item::placeholder{
 
 section .menu__admin{
     display: flex;
-    width: 182px;
     height: 51px;
 }
 
@@ -73,6 +75,7 @@ section .menu__admin__btn{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    margin-left: 300px;
 }
 
 section .menu__admin__btn:hover{
@@ -89,12 +92,11 @@ section .agregarproducto{
 section .agregarproducto__container{
     display: flex;
     flex-direction: column;
-    margin-top: 64px;
-    margin-bottom: 64px;
-    width: 1136px;
-    height: 491px;
+    width: 1440px;
+    height: 620px;
     align-items: center;
     justify-content: center;
+    background: #e6e6e63d;
 }
 
 section .agregarproducto__form{
@@ -171,9 +173,10 @@ section .agregarproducto__btn:hover{
 section.contacto{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 1440px;
     height: 368px;
-    gap: 112px;
+    gap: 90px;
     background: #EAF2FD;
 }
 
@@ -282,14 +285,15 @@ section .contacto__form__btn:hover{
 section .footer{
     display: flex;
     flex-direction: column;
-    width: 1440px;
     height: 102px;
 }
 
 section .footer__info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 1440px;
     margin: 32px;
     gap: 8px;
 }

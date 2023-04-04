@@ -14,9 +14,15 @@ section .menu__header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
+    width: 1440px;
     height: 115px;
+}
+
+section .menu__logo{
+    margin-right: 32px;
 }
 
 section .menu__buscar{
@@ -29,7 +35,6 @@ section .menu__buscar{
 section .menu__buscar__item{
     display: flex;
     flex-direction: row;
-    margin-left: 32px;
     width: 393px;
     height: 38px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -66,8 +71,9 @@ section .login__container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 92px;
-    margin-bottom: 92px;
+    width: 1440px;
+    height: 480px;
+    background: #e6e6e63d;
 }
 
 section .login__form{
@@ -76,7 +82,7 @@ section .login__form{
     justify-content: center;
     width: 423px;
     height: 291px;
-    gap: 16px;
+    gap: 25px;
 }
 
 section .login__titulo{
@@ -126,9 +132,10 @@ section .login__btn:hover{
 section.contacto{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 1440px;
     height: 368px;
-    gap: 112px;
+    gap: 90px;
     background: #EAF2FD;
 }
 
@@ -237,14 +244,15 @@ section .contacto__form__btn:hover{
 section .footer{
     display: flex;
     flex-direction: column;
-    width: 1440px;
     height: 102px;
 }
 
 section .footer__info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 1440px;
     margin: 32px;
     gap: 8px;
 }

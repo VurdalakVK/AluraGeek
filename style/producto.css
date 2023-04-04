@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Sección Header */
@@ -13,9 +14,14 @@ section .menu__header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    justify-content: flex-start;
+    width: 1440px;
     height: 115px;
+}
+
+section .menu__logo{
+    margin-right: 32px;
+    margin-left: 152px;
 }
 
 section .menu__buscar{
@@ -66,10 +72,11 @@ section .producto__container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1136px;
-    height: 403px;
-    margin-left: 50px;
+    justify-content: center;
+    width: 1440px;
+    height: 500px;
     gap: 16px;
+    background: #e6e6e63d;
 }
 
 section .producto__container .producto__img{
@@ -114,11 +121,11 @@ section .similares{
 section .similares__container{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 1136px;
-    height: 306px;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 450px;
+    background: #e6e6e63d;
 }
 
 /* Sección Similares Cabecera */
@@ -197,9 +204,10 @@ section .producto__link a:link, a:visited{
 section.contacto{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 1440px;
     height: 368px;
-    gap: 112px;
+    gap: 90px;
     background: #EAF2FD;
 }
 
@@ -303,7 +311,6 @@ section .contacto__form__btn:hover{
 section .footer{
     display: flex;
     flex-direction: column;
-    width: 1440px;
     height: 102px;
 }
 
@@ -311,6 +318,8 @@ section .footer__info{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 1440px;
     margin: 32px;
     gap: 8px;
 }
